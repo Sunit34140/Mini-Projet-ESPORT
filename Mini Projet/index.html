@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord esport</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tableau de bord esport</h1>
+    </header>
+    <section id="filters">
+        <h2>Filtrer par :</h2>
+        <label for="game-filter">Jeu :</label>
+        <select id="game-filter">
+            <option value="CSGO">CS:GO</option>
+            <option value="LoL">League of Legends</option>
+            <option value="Rocket League">Rocket League</option>
+            <option value="Dota 2">Dota 2</option>
+            <option value="Fortnite">Fortnite</option>
+            <option value="Valorant">Valorant</option>
+            <option value="Overwatch">Overwatch</option>
+            <option value="Rainbow Six Siege">Rainbow Six Siege</option>
+        </select>
+        <label for="team-filter">Équipe :</label>
+        <input type="text" id="team-filter" placeholder="Entrez le nom de l'équipe">
+    </section>
+    <section id="content">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
